@@ -10,3 +10,5 @@ iron-router
 iron-router-progress
 accounts-password
 accounts-ui
+coffeescript
+accounts-entry
