@@ -3,6 +3,8 @@
     "bootstrap-3": {},
     "iron-router": {},
     "iron-router-progress": {},
-    "accounts-entry": {}
+    "accounts-entry": {},
+    "roles": {},
+    "accounts-admin-ui-bootstrap-3": {}
   }
 }

@@ -5,7 +5,9 @@
       "bootstrap-3": {},
       "iron-router": {},
       "iron-router-progress": {},
-      "accounts-entry": {}
+      "accounts-entry": {},
+      "roles": {},
+      "accounts-admin-ui-bootstrap-3": {}
     },
     "packages": {
       "bootstrap-3": {
@@ -28,10 +30,25 @@
         "tag": "v0.5.3",
         "commit": "20641be951a1a2e563cd2e6bf552f2cc8fe03984"
       },
+      "roles": {
+        "git": "https://github.com/alanning/meteor-roles.git",
+        "tag": "v1.2.6",
+        "commit": "f2a9058281f8f2fe028767841d7445aadd6893cf"
+      },
+      "accounts-admin-ui-bootstrap-3": {
+        "git": "https://github.com/hharnisc/meteor-accounts-admin-ui-bootstrap-3.git",
+        "tag": "v0.2.0",
+        "commit": "bc613e55d4e8c9b419b798e92d274dc697d68b15"
+      },
       "just-i18n": {
         "git": "https://github.com/subhog/meteor-just-i18n.git",
         "tag": "v0.1.1",
         "commit": "ce88ac66c0dc107dc2da93ce152616115838101f"
+      },
+      "bootstrap-modal": {
+        "git": "https://github.com/livingyang/meteor-bootstrap-modal.git",
+        "tag": "v2.2.5",
+        "commit": "8687f21b2ed5d41f038885c3733287b1001b13b5"
       }
     }
   }
