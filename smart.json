@@ -5,6 +5,7 @@
     "iron-router-progress": {},
     "accounts-entry": {},
     "roles": {},
-    "accounts-admin-ui-bootstrap-3": {}
+    "accounts-admin-ui-bootstrap-3": {},
+    "blog": {}
   }
 }

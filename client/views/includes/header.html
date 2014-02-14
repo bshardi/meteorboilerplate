@@ -15,6 +15,7 @@
             <ul class="nav navbar-nav">
               <li class="{{activeRouteClass 'home'}}"><a href="{{pathFor 'home'}}">Home</a></li>
               <li class="{{activeRouteClass 'about'}}"><a href="{{pathFor 'about'}}">About</a></li>
+              <li class="{{activeRouteClass 'blogIndex'}}"><a href="{{pathFor 'blogIndex'}}">Blog</a></li>
               <li class="{{activeRouteClass 'contact'}}"><a href="{{pathFor 'contact'}}">Contact</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
@@ -31,7 +32,13 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
               {{#if isAdminUser}}
-              <li><a href="{{pathFor 'admin'}}">Site Administration</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="{{pathFor 'admin'}}">User Admin</a></li>
+                  <li><a href="{{pathFor 'blogAdmin'}}">Blog Admin</a></li>
+                </ul>
+              </li>
               {{/if}}
               {{accountButtons}}
             </ul>
