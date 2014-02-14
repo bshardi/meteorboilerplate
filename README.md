@@ -13,10 +13,10 @@ App includes:
   * roles
   * accounts-entry
   * accounts-admin-ui-bootstrap-3
+  * blog
 
 Todos:
 
-  * blog
   * app config to add author, company, phone, address, application title and such
   * working contact us page
   * generic terms and privicy policy with links in footer
