@@ -17,6 +17,6 @@ App includes:
 
 Todos:
 
-  * app config to add author, company, phone, address, application title and such
+  * <in progress> app config to add author, company, phone, address, application title and such
   * working contact us page
   * generic terms and privicy policy with links in footer
