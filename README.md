@@ -20,3 +20,17 @@ Todos:
   * <in progress> app config to add author, company, phone, address, application title and such
   * working contact us page
   * generic terms and privicy policy with links in footer
+
+NOTES:
+
+accounts-entry does have a couple of bugs that will prevent its use. I have made some inline edits of the package to make it usable in this project. If using this package you will need to make the following code changes in your accounts-entry package or possibly pull their latest and use it instead of what is on atmosphere.
+
+packages/acounts-entry/server/entry.coffee line 15 (entryValidateSignupCode method) code should be
+```coffee
+not AccountsEntry.settings.signupCode or signupCode is AccountsEntry.settings.signupCode 
+```
+The following changeis optional - forces user name to be lowercase
+packages/acounts-entry/client/views/signUp/signUp.coffee line 49 (username = if t.find('input[name="username"]')
+```coffee
+t.find('input[name="username"]').value.toLowerCase()
+```
