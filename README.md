@@ -29,6 +29,12 @@ packages/acounts-entry/server/entry.coffee line 15 (entryValidateSignupCode meth
 ```coffee
 not AccountsEntry.settings.signupCode or signupCode is AccountsEntry.settings.signupCode 
 ```
+
+packages/accounts-entry/client/views/signUp/signUp.coffee line 121 (data.username = username)
+```
+newUserdata.username = username
+```
+
 The following changeis optional - forces user name to be lowercase
 packages/acounts-entry/client/views/signUp/signUp.coffee line 49 (username = if t.find('input[name="username"]')
 ```coffee
