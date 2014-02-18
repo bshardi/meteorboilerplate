@@ -32,7 +32,7 @@ not AccountsEntry.settings.signupCode or signupCode is AccountsEntry.settings.si
 
 packages/accounts-entry/client/views/signUp/signUp.coffee line 121 (data.username = username)
 ```
-newUserdata.username = username
+newUserData.username = username
 ```
 
 The following changeis optional - forces user name to be lowercase

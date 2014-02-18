@@ -1,7 +1,7 @@
 Meteor.startup(function (){
 	//setup admin user
-	if (Meteor.users.findOne("SZx6E49ARqdutDCDF"))
-		Roles.addUsersToRoles("SZx6E49ARqdutDCDF", ["admin"]);
+	if (Meteor.users.findOne("YourAdminUserId"))
+		Roles.addUsersToRoles("YourAdminUserId", ["admin"]);
 
 	//add roles to Roles if they do not 
 	if(!Meteor.roles.findOne({name: "admin"}))
