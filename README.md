@@ -18,10 +18,11 @@ App includes:
 Todos:
 
   * working contact us page
+  * Upgrade to latest meteor release with new view 
   * generic terms and privicy policy with links in footer
 
 NOTES:
 
 There is a siteconfig.js file in lib that contains a rudamentary way to store some site information, I created some handlebar helpers for the fields.
 
-Still having issues with coming up with a good solution for case insensitive login with email and username using packages. Will work on it some more
+Have worked on a changes on the accounts-entry side. They have added two new settings for setting email and username to lowercase. Once that is released I will update this readme.
