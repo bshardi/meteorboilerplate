@@ -7,6 +7,8 @@ Meteor.startup(function(){
 		passwordSignupFields: "USERNAME_AND_EMAIL",
 		showSignupCode: false,
 		dashboardRoute: "/",
-		homeRoute: "/"
+		homeRoute: "/",
+		emailToLower: true,
+		usernameToLower: true
 	});
 });

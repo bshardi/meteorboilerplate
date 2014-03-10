@@ -13,8 +13,8 @@
     "packages": {
       "bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
-        "tag": "v3.1.0-1",
-        "commit": "329dccb08bfc18c635676dea600ac9953162cda9"
+        "tag": "v3.1.1-1",
+        "commit": "63dd38968828bb8963636df93e9a1c45e2dfe67e"
       },
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
@@ -28,8 +28,8 @@
       },
       "accounts-entry": {
         "git": "https://github.com/BeDifferential/accounts-entry.git",
-        "tag": "v0.6.1",
-        "commit": "8e42d4abca33d6a00d236d198589fe4924729d09"
+        "tag": "v0.6.2",
+        "commit": "56c9b6c064cc0d92a97aa9b53a8f4da050f54c29"
       },
       "roles": {
         "git": "https://github.com/alanning/meteor-roles.git",
@@ -43,8 +43,8 @@
       },
       "blog": {
         "git": "https://github.com/BeDifferential/meteor-blog.git",
-        "tag": "v0.2.9",
-        "commit": "6a0810f4c3cb9e4d2668c0cbf848d440b1234c89"
+        "tag": "v0.2.11",
+        "commit": "03f6cfd8436c598ceaf7ad082eba41bfbe893e32"
       },
       "just-i18n": {
         "git": "https://github.com/subhog/meteor-just-i18n.git",
@@ -55,11 +55,6 @@
         "git": "https://github.com/softwarerero/meteor-accounts-t9n.git",
         "tag": "v0.0.2",
         "commit": "408e3a037114cb72163073110e2121e3d548c1a2"
-      },
-      "parsleyjs": {
-        "git": "https://github.com/nate-strauser/meteor-parsleyjs.git",
-        "tag": "v1.1.7",
-        "commit": "035a1e56a78e50369686b7e281aa71e3daf3729a"
       },
       "minimongoid": {
         "git": "https://github.com/Exygy/minimongoid.git",
